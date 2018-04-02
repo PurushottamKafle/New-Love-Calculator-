@@ -1,0 +1,200 @@
+package letslove;
+/**
+ * 
+ * 
+ * Developer: Purushottam kafle
+ * Address: Nepal
+ * Programme Name: Let's Calculate Love
+ * 
+ * 
+ */
+import java.util.Scanner;
+
+public class letslove {
+	public static void main(String[] args) {
+		int loveCalcus;
+        String name;
+	    String male = "male";
+	    String female = "female";
+for(int i=0; i<3; i++) {
+	System.out.println("(---)(---)()()(*)()()(---)(---)");
+}
+	    Scanner scn = new Scanner(System.in);
+        System.out.println("Enter you Gender");
+	        name = scn.next();
+
+	      if (name.equals(male)) {
+	            System.out.println("You're a "+name+" so, what's you name sir?");
+		       String Mname = scn.next();
+		       System.out.println("What is your Gir-Friend name ?");
+		       String GFname = scn.next();
+		       System.out.println(Mname+", What is your favourite color ?");
+
+		       String Cname = scn.next();
+		       System.out.println(Mname+", Where're you now ?");
+
+		       String Wname = scn.next();
+		       System.out.println("What is your Gir-Friend's face color ?");
+
+		       String GCname = scn.next();
+		       System.out.println("Do you love your Girl Friend ?");
+
+		       String test = scn.next();
+		       
+			          loveCalcus=20;
+			      int loveCalcus1=1;
+                  int loveCalcus3=46;
+			      int loveCalcus2=3;
+			      int loveCalcus4=30;
+			      int total =loveCalcus+loveCalcus1+loveCalcus2+loveCalcus3+loveCalcus4;
+String x="yes";
+String y="no";
+String z="home";
+String pk="date";
+
+		       
+		      /**
+		       * Algos(); of Love By Purushottam Kafle
+		       */
+
+if(Cname.equals(GCname)) {
+	System.out.println("Your Gir Friend Love you by: "+loveCalcus+"%");
+	
+}
+if(test.equals(x)) {
+	System.out.println("Calculating...");
+	System.out.println("Your Gir Friend Love you by: "+loveCalcus4+"%");
+	
+}
+if(test.equals(y)) {
+	System.out.println("Calculating...");
+
+	System.out.println("Your Gir Friend Love you by: "+loveCalcus2+"%");
+	
+}
+if(Wname.equals(z)) {
+	System.out.println("Calculating...");
+
+	System.out.println("Your Gir Friend Love you by: "+loveCalcus1+"%");
+	
+}
+if(Wname.equals(pk)) {
+	System.out.println("Calculating...");
+
+	System.out.println("Your Gir Friend Love you by: "+loveCalcus3+"%");
+	
+}
+for(int i=0; i<4; i++) {
+	System.out.println("!!!!!!!!!!!!!");
+}
+
+for(int i=0; i<2; i++) {
+	System.out.println("Total Love Calculation: ");
+}
+System.out.println("Your Love Bio-Data");
+System.out.println("--------");
+
+System.out.println("Your name: "+Mname);
+System.out.println("Your Girlfriend: "+GFname);
+
+System.out.println("Your Gender: "+name);
+System.out.println("Do you love your gf: "+test);
+System.out.println("You're now in: "+Wname+" with "+GFname);
+System.out.println("GF's Face Color: "+GCname);
+
+System.out.println("Your Gir Friend Love you by: "+total+"%");
+
+//End of Male
+	        }
+
+	        if (name.equals(female)) {
+	            System.out.println("You're a "+name+" so, what's you name madam?");
+		        String Fname = scn.next();
+			       System.out.println("What is your Boy-Friend name ?");
+
+		        String BFname = scn.next();
+			       System.out.println(Fname+", What is your favourite color ?");
+
+		        String Cname = scn.next();
+			       System.out.println(Fname+", Where're you now ?");
+
+		        String Wname = scn.next();
+			       System.out.println("What is your Boy-Friend face color ?");
+
+		        String BCname = scn.next();
+		        System.out.println("Do you love your Boy Friend ?");
+		        String test = scn.next();
+
+		        String test1 = scn.next();
+			       
+		          loveCalcus=20;
+		      int loveCalcus1=1;
+            int loveCalcus3=46;
+		      int loveCalcus2=3;
+		      int loveCalcus4=30;
+		      int total =loveCalcus+loveCalcus1+loveCalcus2+loveCalcus3+loveCalcus4;
+String x="yes";
+String y="no";
+String z="home";
+String pk="date";
+
+	       
+	      /**
+	       * Algos(); of Love By Purushottam Kafle
+	       */
+
+if(Cname.equals(BCname)) {
+System.out.println("Your Boy Friend Love you by: "+loveCalcus+"%");
+
+}
+if(test1.equals(x)) {
+System.out.println("Calculating...");
+System.out.println("Your Boy Friend Love you by: "+loveCalcus4+"%");
+
+}
+if(test1.equals(y)) {
+System.out.println("Calculating...");
+
+System.out.println("Your Boy Friend Love you by: "+loveCalcus2+"%");
+
+}
+if(Wname.equals(z)) {
+System.out.println("Calculating...");
+
+System.out.println("Your Boy Friend Love you by: "+loveCalcus1+"%");
+
+}
+if(Wname.equals(pk)) {
+System.out.println("Calculating...");
+
+System.out.println("Your Boy Friend Love you by: "+loveCalcus3+"%");
+
+}
+for(int i=0; i<2; i++) {
+System.out.println("!!!!!!!!!!!!!");
+}
+
+for(int i=0; i<2; i++) {
+System.out.println("Total Love Calculation: ");
+}
+System.out.println("Your Love Bio-Data");
+System.out.println("-------------------------");
+
+System.out.println("Your name: "+Fname);
+System.out.println("Your Boyfriend: "+BFname);
+
+System.out.println("Your Gender: "+name);
+System.out.println("Do you love your bf: "+test1);
+System.out.println("You're now in: "+Wname+" with "+BFname);
+System.out.println("BF's Face Color: "+BCname);
+
+System.out.println("Your Boy Friend Love you by: "+total+"%");
+
+//End of FEMALE
+	        }
+	
+	    }
+
+	}
+
+
